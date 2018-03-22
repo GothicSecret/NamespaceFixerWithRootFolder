@@ -16,6 +16,6 @@ namespace NamespaceFixer
     internal static class Ids
     {
         public const int CmdIdAdjustNamespace = 0x2001;
-        public const int CmdIdAdjustNamespace2 = 0x2002;
+        public const int CmdIdAdjustNamespaceRoot = 0x2002;
     }
 }

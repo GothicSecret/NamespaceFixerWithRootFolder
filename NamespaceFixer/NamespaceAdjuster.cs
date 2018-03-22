@@ -58,7 +58,7 @@ namespace NamespaceFixer
             if (commandService != null)
             {
                 var menuCommandID = new CommandID(Guids.NamespaceFixerCmdSet, Ids.CmdIdAdjustNamespace);
-                var menuCommandID2 = new CommandID(Guids.NamespaceFixerCmdSet, Ids.CmdIdAdjustNamespace2);
+                var menuCommandID2 = new CommandID(Guids.NamespaceFixerCmdSet, Ids.CmdIdAdjustNamespaceRoot);
                 var menuItem = new MenuCommand(MenuItemCallback, menuCommandID);
                 var menuItem2 = new MenuCommand(MenuItemCallback2, menuCommandID2);
                 commandService.AddCommand(menuItem);

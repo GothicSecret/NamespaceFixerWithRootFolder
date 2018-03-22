@@ -25,7 +25,7 @@
         </Strings>
       </Button>
 
-      <Button guid="guidMenuAndCommandsCmdSet" id="CmdIdAdjustNamespace2" priority="0x200" type="Button">
+      <Button guid="guidMenuAndCommandsCmdSet" id="CmdIdAdjustNamespaceRoot" priority="0x200" type="Button">
         <Strings>
           <ButtonText>Adjust namespaces to root</ButtonText>
         </Strings>
@@ -37,7 +37,7 @@
     <CommandPlacement guid="guidMenuAndCommandsCmdSet" id="CmdIdAdjustNamespace" priority="0x200">
       <Parent guid="guidMenuAndCommandsCmdSet" id="MyEditorCtxGroup"/>
     </CommandPlacement>
-  <CommandPlacement guid="guidMenuAndCommandsCmdSet" id="CmdIdAdjustNamespace2" priority="0x200">
+  <CommandPlacement guid="guidMenuAndCommandsCmdSet" id="CmdIdAdjustNamespaceRoot" priority="0x200">
       <Parent guid="guidMenuAndCommandsCmdSet" id="MyEditorCtxGroup"/>
     </CommandPlacement>
   </CommandPlacements>
@@ -46,7 +46,7 @@
     <GuidSymbol name="guidMenuAndCommandsCmdSet" value="{19492BCB-32B3-4EC3-8826-D67CD5526653}">
       <IDSymbol name="MyEditorCtxGroup" value="0x1013" />
       <IDSymbol name="CmdIdAdjustNamespace" value="0x2001" />
-      <IDSymbol name="CmdIdAdjustNamespace2" value="0x2002" />
+      <IDSymbol name="CmdIdAdjustNamespaceRoot" value="0x2002" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>
